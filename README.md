@@ -35,9 +35,12 @@ The code for the app has been split across two repositories one for the front-en
 
 ### Planned
 
+- Custom MUI theme and dark mode support
 - Implement authentication with Firebase
 - Basic user profile and settings page
 - Add notes to transactions
+- Testing suite
+- Edit visibility of default category (hide/show, exclude/include transactions)
 
 ## Tech Stack
 
