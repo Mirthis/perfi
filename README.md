@@ -15,7 +15,7 @@ The code for the app has been split across two repositories one for the front-en
 
 ### Implemented
 
-- Basic authentication (no verification, reset password, etc.)
+- Basic email/password authentication
 - Connet to financial institutions and retrieve accounts (UK only for now)
 - Retrieve accounts and display basic stats (balance, recent spending)
 - Retrieve transactions for each account and assign them to pre-defined categories
@@ -36,7 +36,7 @@ The code for the app has been split across two repositories one for the front-en
 ### Planned
 
 - Custom MUI theme and dark mode support
-- Implement authentication with Firebase
+- Add Google, Twitter, Facebook authentication
 - Basic user profile and settings page
 - Add notes to transactions
 - Testing suite
