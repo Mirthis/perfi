@@ -4,6 +4,8 @@ Perfi is a personal finance app that I am building as a personal project to cons
 The app leverage the service provided by [Plaid](https://plaid.com/) to connect to financial institutions and retrieve financial data.
 A list of implmented and planned features can be found below.
 
+Demo version of the app can be found here: [https://perfi-app.herokuapp.com/](https://perfi-app.herokuapp.com/).
+
 ## Repositories:
 
 The code for the app has been split across two repositories one for the front-end and one for the back-end.
@@ -15,7 +17,7 @@ The code for the app has been split across two repositories one for the front-en
 
 ### Implemented
 
-- Basic email/password authentication
+- Email/password authentication
 - Connet to financial institutions and retrieve accounts (UK only for now)
 - Retrieve accounts and display basic stats (balance, recent spending)
 - Retrieve transactions for each account and assign them to pre-defined categories
@@ -26,19 +28,16 @@ The code for the app has been split across two repositories one for the front-en
 - Assign transaction to a different category
 - Assign similar transactions to a different category (based on name and merchant)
 - Update category assignment algorithm based on user choices
-
-### Work in progress
-
-- Creaate category management view (add, delete, edit categories)
-- Add analytics (charts) to main pages (accounts, transactions, categories)
-- Implment notification and error handling
+- Create user defined
+- Force account refresh (generally not needed)
+- Change account permissions (renew, add accounts, remove accounts)
 
 ### Planned
 
-- Custom MUI theme and dark mode support
 - Add Google, Twitter, Facebook authentication
 - Basic user profile and settings page
 - Add notes to transactions
+- Add buget tracking
 - Testing suite
 - Edit visibility of default category (hide/show, exclude/include transactions)
 
